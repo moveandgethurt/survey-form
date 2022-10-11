@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1660496247667-3fb697c396af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    font-family: Lucida Console;
+    padding: 20px;
+    color: rgb(240,240,240);
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+  }
+  
+  #name, #email, #number {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    min-height: 2em;
+    font-family: Lucida Console;
+  }
+  
+  option {
+    font-family: Lucida Console;
+  }
+  
+  form {
+    background-color: rgba(50, 50, 50, 0.7);;
+    padding: 15px;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 17px;
+  }
+  
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    border: 1px solid;
+    color: #ffffff;
+  }
+  
+  #submit {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    background-color: rgba(200,200,200,0.5);
+    border-color: white;
+    min-width: 300px;
+    font-family: Lucida Console;
+  }
